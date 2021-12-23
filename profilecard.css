@@ -2,20 +2,38 @@
 *{
     background-color: black;
 }
-
-
-.card{
-    box-shadow: 0 5px 8px rgba(0,0 green,0 blue,0.2 alpha);
-    max-width: 300px;
-
-margin: auto;
-text-align: center;
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.img{
+    max-width: 100%;
+}
+.container > div{
+    flex-basis: 40%;
+}
+h1{
+width: 300px;
+text-align: center;
+align-items: stretch;
+}
+h2{
+    width: 300px;
+    text-align: center;
+    align-items: stretch;
+    }
+    
+
+
+
 #d1{
 
     font-weight: bold;
     color: aqua;
     text-emphasis-color: blue;
+    
+    
     
 }
 #d2{
@@ -45,4 +63,8 @@ text-align: center;
     
     visibility: visible;
     
+}
+#p0{
+    font-weight: bold;
+    color: aqua;
 }
