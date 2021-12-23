@@ -1,0 +1,48 @@
+
+*{
+    background-color: black;
+}
+
+
+.card{
+    box-shadow: 0 5px 8px rgba(0,0 green,0 blue,0.2 alpha);
+    max-width: 300px;
+
+margin: auto;
+text-align: center;
+}
+#d1{
+
+    font-weight: bold;
+    color: aqua;
+    text-emphasis-color: blue;
+    
+}
+#d2{
+    font-weight: lighter;
+    color: aquamarine;
+    visibility: hidden;
+    
+}
+#p1{
+    font-weight: bolder;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-underline-position: below;
+}
+#p2{
+    font-weight:bold ;
+    color: aqua;
+}
+#p3{
+    font-weight: bold;
+    color: aqua;
+}
+#p3:hover, #p2:hover{
+    opacity: 0.2;
+}
+#d1:hover #d2{
+    
+    visibility: visible;
+    
+}
