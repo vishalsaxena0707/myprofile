@@ -1,6 +1,6 @@
 
 *{
-    background-color: black;
+    background-color:black;
 }
 .container{
     display: flex;
@@ -30,7 +30,7 @@ h2{
 #d1{
 
     font-weight: bold;
-    color: aqua;
+    color:violet;
     text-emphasis-color: blue;
     
     
@@ -50,13 +50,10 @@ h2{
 }
 #p2{
     font-weight:bold ;
-    color: aqua;
+    color:violet;
 }
-#p3{
-    font-weight: bold;
-    color: aqua;
-}
-#p3:hover, #p2:hover{
+#
+#p2:hover, #p1:hover{
     opacity: 0.2;
 }
 #d1:hover #d2{
@@ -67,4 +64,7 @@ h2{
 #p0{
     font-weight: bold;
     color: aqua;
+}
+#p3{
+    color:violet;
 }
